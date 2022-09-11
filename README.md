@@ -32,6 +32,7 @@ git clone https://github.com/Kayakbabe/MMM-OneButton
 			}
 		},
 	```
+
 ## Configuration
 
 pythonname: if you use python or python2 this script may or may not work. You can set whatever name you use to execute python scripts on the command line here. By default the module will use python 3
@@ -43,4 +44,8 @@ pressed: the notification you want the button to send to MagicMirror when the bu
 held: the notification you want the button to send to MagicMirror when the button is held down for a long time approx 4 seconds
 
 debug: true will print debugging messages into the browser console from the node_helper so you don't have to open the logs
+
+### buttons_config 
+Use this reference for how to designate the gpio pin your button is attached to.
+https://gpiozero.readthedocs.io/en/stable/recipes.html?highlight=button#pin-numbering
 
