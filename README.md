@@ -1,5 +1,6 @@
 # MMM-OneButton
-A MagicMirror module for one button with two actions of your choice depending if it is pressed or held down.
+A MagicMirror module for one button with two actions of your choice depending if it is pressed or held down. The module will send a MagicMirror notification to the MagicMirror. I use this with the MMM-Pages module to increment the pages. There are two notification available with one button, so you could even use this to toggle or shut down your pi depending on other modules you may have installed on your mirror.
+
 [MMM-OneButton](https://github.com/Kayakbabe/MMM-OneButton)
 
 ## Prerequisites
