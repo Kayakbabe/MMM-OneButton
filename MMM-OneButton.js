@@ -1,4 +1,7 @@
 /* MagicMirror²
+ * Magic Mirror By Michael Teeuw https://magicmirror.builders
+ * MIT Licensed.
+ *
  * Module: MMM-OneButton
  *
  * By Kelly  https://github.com/Kayakbabe/MMM-OneButton
