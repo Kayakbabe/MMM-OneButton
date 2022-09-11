@@ -14,6 +14,7 @@ Button.was_held = False
 def held(btn):
     btn.was_held = True
     print("BUTTON_HELD",end ="")
+    sleep(1)
 
 def released(btn):
     if not btn.was_held:
@@ -22,13 +23,14 @@ def released(btn):
 
 def pressed(btn):
     print("BUTTON_PRESSED",end ="")
+    sleep(1)
 
 for btn in args: 
     button = Button(btn,hold_time=4)
 
 button.when_held = held
 button.when_released = released
-sleep(3)
+
 
 pause()    
 
