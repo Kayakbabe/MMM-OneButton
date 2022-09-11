@@ -5,7 +5,7 @@ A MagicMirror module for one button with two actions of your choice depending if
 
 ## Prerequisites
 
-This module was designed for running on a Raspberry Pi running Buster. Buster has gpiozero and python incorporated. 
+This module was designed for running on a Raspberry Pi running Buster. Buster which has gpiozero and python incorporated. 
 If you run this module on a different machine, you may need to add python and gpiozero and perhaps rpi:GPIO as well.
 You will have to go to those resource to figure out how to do that.
 
