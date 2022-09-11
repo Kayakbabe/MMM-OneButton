@@ -31,7 +31,8 @@ git clone https://github.com/Kayakbabe/MMM-OneButton
 			}
 		},
 	```
-##Configuration
+## Configuration
+
 pythonname: if you use python or python2 this script may or may not work. You can set whatever name you use to execute python scripts on the command line here. By default the module will use python 3
 
 buttons_config: the gpio pin you have the button connected to
