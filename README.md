@@ -28,7 +28,7 @@ git clone https://github.com/Kayakbabe/MMM-OneButton
 				buttons_config: '5', //gpio pin your switch or sensor is connected to
 				pressed: "PAGE_INCREMENT",
 				held: "PAGE_DECREMENT",
-				debug: true // print debugging messages into the browser console from the node_helper
+				debug: false // print debugging messages into the browser console from the node_helper
 			}
 		},
 	```
@@ -43,7 +43,7 @@ pressed: the notification you want the button to send to MagicMirror when the bu
 
 held: the notification you want the button to send to MagicMirror when the button is held down for a long time approx 4 seconds
 
-debug: true will print debugging messages into the browser console from the node_helper so you don't have to open the logs
+debug: true will print debugging messages into the browser console from the node_helper so you don't have to open the logs.
 
 ### buttons_config 
 Use this reference for how to designate the gpio pin your button is attached to.
